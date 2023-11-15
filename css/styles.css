@@ -24,13 +24,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-  display:flex;
-  flex-direction: column;
-
+	line-height:normal;
+  background-color:rgb(207, 250, 207);
+  display: flex;
+  font-size: 30px;
+  text-align:center;
+  height: 100%;
+  
+   
+  
 }
 ol, ul {
 	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -50,7 +56,9 @@ table {
   position: fixed;
   display: flex;
   width: 100%;
+  height: 200px;
   background-color: #60fbbf;
+  
 }
 
 .pagination {
@@ -58,32 +66,47 @@ table {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  
 }
 
 .pagination img {
   margin: 0 10px;
-  width: 250px;
+  width: 450px;
+
 }
 
 .boton {
-  font-size: 16px;
+  font-size: 25px;
   padding: 10px;
-  border: none;
-  border-radius: 15px;
-  color: white;
+  border:none;
+  border-radius: 55px;
+  color: rgb(253, 253, 253);
   cursor: pointer;
   background-color: #03b1c8;
-  display: flex;
-  flex-direction: column;
+  width: 250px;
+  height: 90px;
 }
 
 ul {  
   padding-top: 100px;
   list-style: none;
-  display: flex;
-  flex-direction: column;
-
+  
 }
 
 
+#character-list {
+  display:flex;
+  flex-wrap:wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 250px;
+  margin: 0;
+  justify-content: space-around;
+  width: 100%;
 
+}
+
+.images {
+  height: 300px;
+
+}

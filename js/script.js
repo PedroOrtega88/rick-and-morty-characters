@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const botonPaginaAnterior = document.getElementById('prev-page');
     const botonPaginaSiguiente = document.getElementById('next-page');

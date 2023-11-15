@@ -38,3 +38,6 @@ El código del ejercicio se divide en tres archivos:
 - Revisa la documentación si tienes dudas  
 
 Let´s CODE
+
+
+console.log('https://rickandmortyapi.com/api/character/?page=1');
