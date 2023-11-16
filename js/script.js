@@ -49,5 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
     obtenerPersonajes(paginaActual);
-    actualizarPaginacion();
+   
 });
+
+
