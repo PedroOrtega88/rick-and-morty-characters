@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const botonPaginaAnterior = document.getElementById('prev-page');
     const botonPaginaSiguiente = document.getElementById('next-page');
@@ -47,27 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function actualizarPaginacion() {
-        // Actualiza el número de página en la interfaz
-        // Puedes personalizar esto según tu diseño
-        document.getElementById('currentPage').textContent = paginaActual;
-    }
+  
 
-    botonPaginaAnterior.addEventListener('click', () => {
-        if (paginaActual > 1) {
-            paginaActual--;
-            obtenerPersonajes(paginaActual);
-            actualizarPaginacion();
-        }
-    });
-
-    botonPaginaSiguiente.addEventListener('click', () => {
-        paginaActual++;
-        obtenerPersonajes(paginaActual);
-        actualizarPaginacion();
-    });
-
-    // Fetch e inicialización
     obtenerPersonajes(paginaActual);
     actualizarPaginacion();
 });

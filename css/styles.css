@@ -29,7 +29,7 @@ body {
   display: flex;
   font-size: 30px;
   text-align:center;
-  height: 100%;
+  align-items: stretch;
   
    
   
